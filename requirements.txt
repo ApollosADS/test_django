@@ -1,0 +1,12 @@
+# Framework Django et ses dépendances
+Django==4.2.11              # Framework web Python
+djangorestframework==3.14.0 # Framework REST API
+psycopg2-binary==2.9.9     # Adaptateur PostgreSQL pour Python
+
+# Authentification et documentation
+djangorestframework-simplejwt==5.3.1  # Gestion des tokens JWT
+drf-yasg==1.21.7                      # Génération de documentation Swagger/OpenAPI
+
+# Autres dépendances
+python-dateutil==2.8.2    # Utilitaires pour la manipulation des dates
+pytz==2024.1             # Gestion des fuseaux horaires
